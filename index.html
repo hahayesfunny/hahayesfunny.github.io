@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>PONG!</title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+    </head>
+    <body>
+        <h1>PONG!</h1>
+        <div id = "delete">
+            <input type="text" placeholder="Id" id="c">
+            <button id = "create">
+                Create Room!
+            </button>
+            <p></p>
+            <input type="text" placeholder="Id" id="j">
+            <button id = "join">
+                Join Room!
+            </button>
+        </div>
+        <canvas id = "game" width = "800"; height = "600"; style="display: none;"></canvas>
+    </body>
+    <script src="key.js"></script>
+</html>
